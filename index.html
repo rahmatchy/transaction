@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Rownaq Tel</title>
+</head>
+
+<body>
+    <header>
+        <div class="hd1">Rownaq Telecom <span class="blnc">Balance : 100000</span></div>
+
+        <div>
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand text-white" href="#"><i class="fas fa-home"></i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-white" href="#">Home</a>
+                        <a class="nav-link text-white" href="#">Transaction</a>
+                        <a class="nav-link text-white" href="#">Resseller</a>
+                        <a class="nav-link text-white" href="#">Total Transaction</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+
+                <form>
+                    <div class="col-auto my-1">
+                        <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Choose</option>
+                            <option value="1">Cash IN</option>
+                            <option value="2">Cash Out</option>
+                        </select>
+                    </div>
+                    <div class="form-group align-items-center">
+                        <label for="text">Mobile No:</label>
+                        <input type="text" class="form-control form-control-sm" placeholder="018">
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Amount:</label>
+                        <input type="text" class="form-control form-control-sm" placeholder="Amount">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-8">
+                <table class="table ml-5 table-bordered">
+                    <thead>
+                        <tr>
+                            <td>ID</td>
+                            <td>Mobile Number</td>
+                            <td>Amount</td>
+                            <td>Type</td>
+                            <td>Date</td>
+                            <td>Sender</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>01823954043</td>
+                            <td>1020</td>
+                            <td>cash in</td>
+                            <td>03-03-2021</td>
+                            <td>01814926282</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/645ae04067.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
